@@ -15,8 +15,6 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
-    api("fr.shyrogan", "Kall", "1.1.0")
-    api("fr.shyrogan", "Konfigurate", "1.0.0")
     testCompile("junit", "junit", "4.12")
 }
 
