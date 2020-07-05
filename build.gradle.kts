@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.leafclient"
-version = "1.0.0"
+version = "1.1.0"
 
 repositories {
     maven("https://dl.bintray.com/kotlin/kotlin-eap")
@@ -15,7 +15,6 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
-    testCompile("junit", "junit", "4.12")
 }
 
 configure<JavaPluginConvention> {
